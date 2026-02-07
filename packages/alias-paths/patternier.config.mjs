@@ -1,12 +1,9 @@
 import { definePatternConfig } from "patternier";
 
 export const config = definePatternConfig({
-  type: "fsd",
+  extends: "../../patternier.base.config.mjs",
   rootDir: "src",
   rules: {
-    "@patternier/no-cross-slice-import": "error",
-    "@patternier/no-deep-import": "error",
-    "@patternier/slice-no-usage": "error",
-    "@patternier/segment-no-usage": "error",
-  },
+    "@patternier/no-layer-to-higher-import": "error"
+  }
 });
