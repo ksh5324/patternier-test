@@ -7,4 +7,7 @@ export const config = definePatternConfig({
     order: ["app", "pages", "widgets", "features", "entities", "shared"],
     sliceLayers: ["features", "entities", "widgets"],
   },
+  rules: {
+    // "@patternier/model-no-presentation": "error"
+  }
 });
