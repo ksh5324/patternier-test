@@ -18,3 +18,4 @@ patternier의 규칙/호환성 테스트를 위한 모노레포입니다.
 - `packages/next-app`: Next(app router) + "use client" 케이스
 - `packages/alias-paths`: tsconfig paths/alias 케이스
 - `packages/mixed-imports`: 상대경로/alias 혼합 케이스
+- `packages/vue-app`: Vue SFC(.vue) 케이스

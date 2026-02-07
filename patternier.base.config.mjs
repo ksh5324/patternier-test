@@ -2,6 +2,7 @@ import { definePatternConfig } from "patternier";
 
 export const config = definePatternConfig({
   type: "fsd",
+  rootDir: "src",
   rules: {
     "@patternier/no-layer-to-higher-import": "error",
     "@patternier/no-cross-slice-import": "error",
