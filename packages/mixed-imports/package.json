@@ -1,0 +1,10 @@
+{
+  "name": "patternier-test-mixed-imports",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "check": "pnpm exec patternier check",
+    "check:json": "pnpm exec patternier check --format json",
+    "check:sarif": "pnpm exec patternier check --format sarif"
+  }
+}

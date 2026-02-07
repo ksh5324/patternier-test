@@ -1,0 +1,15 @@
+{
+  "name": "patternier-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Testbed repository for validating patternier rules across FSD, Next.js, and mixed TS/JS setups.",
+  "packageManager": "pnpm@10.0.0",
+  "devDependencies": {
+    "patternier": "file:patternier-0.0.2.tgz"
+  },
+  "scripts": {
+    "check": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check",
+    "check:json": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check:json",
+    "check:sarif": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check:sarif"
+  }
+}
