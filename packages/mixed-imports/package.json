@@ -5,6 +5,7 @@
   "scripts": {
     "check": "pnpm exec patternier check",
     "check:json": "pnpm exec patternier check --format json",
-    "check:sarif": "pnpm exec patternier check --format sarif"
+    "check:sarif": "pnpm exec patternier check --format sarif",
+    "summary": "pnpm exec patternier check --summary"
   }
 }

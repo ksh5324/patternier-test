@@ -159,7 +159,7 @@ packages:
     hasBin: true
 
   patternier@file:patternier-0.0.2.tgz:
-    resolution: {integrity: sha512-HvbxOeVWwqqR3PIvxlWYxPsR6tyDnOJ68hperx7MSZ7iKfFm0BFLzBwzyx9gsqP13QgL7CbVKx5PbyX49bc4Rg==, tarball: file:patternier-0.0.2.tgz}
+    resolution: {integrity: sha512-nR8INIlGhelhp4wYIhHwJsXRra79r9FJzfEyEsq/+HKMM9Zz+1axJj0crgTleTQikKyWvTfP/Lvc4HOepvuxZA==, tarball: file:patternier-0.0.2.tgz}
     version: 0.0.2
     hasBin: true
 

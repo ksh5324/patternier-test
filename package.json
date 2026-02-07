@@ -10,6 +10,7 @@
   "scripts": {
     "check": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check",
     "check:json": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check:json",
-    "check:sarif": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check:sarif"
+    "check:sarif": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail check:sarif",
+    "summary": "pnpm -r --filter \"./packages/*\" --stream --workspace-concurrency=1 --no-bail summary"
   }
 }
